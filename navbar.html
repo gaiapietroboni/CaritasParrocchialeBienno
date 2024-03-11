@@ -8,14 +8,15 @@
 
             <div>
                 <ul class="navbar-primary">
-                    <li class="home"><a href="index.html">Home</a></li>
+                    <li class="home"><a href="home.html">Home</a></li>
                     <li class="cont"><a href="contatti.html">Contatti</a></li>
     
                 </ul>
                 <ul class="navbar-secondary">
-                    <li><a href="contenuto.html?type=lista&nome=Chi+siamo&directory=Chi+siamo">Chi Siamo</a></li>
-                    <li><a href="contenuto.html?type=lista&nome=Attività&directory=Attività">Attività Organizzate</a></li>
-                    <li><a href="contenuto.html?type=lista&nome=Luoghi&directory=Luoghi">Luoghi</a></li>
+                    <li><a href="porteDiIngresso.html">Porte</a></li>
+                    <li><a href="finestre.html">Finestre</a></li>
+                    <li><a href="persiane.html">Persiane</a></li>
+                    <li><a href="vetrate.html">Vetrate</a></li> 
                 </ul>
             </div>
         </nav>      
@@ -23,4 +24,17 @@
 </div>
 
 
-<script src="navbar.js"></script>
+<script>
+    const mobileBtn = document.getElementById('mobile-cta')  //allow us to reference the element id=mobile-cta
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');        //activate menu
+        });
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');     //deactivate menu
+        });
+
+</script>

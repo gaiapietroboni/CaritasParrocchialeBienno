@@ -1,5 +1,0 @@
-                <li><a href="contenuto.html?type=contenuto&nome=Doposcuola+elementari&directory=Attività/Doposcuola+elementari">Doposcuola elementari<img src="Attività/Doposcuola elementari/foto.jpg"></a></li>
-
-                <li><a href="contenuto.html?type=contenuto&nome=Doposcuola+medie&directory=Attività/Doposcuola+medie">Doposcuola medie<img src="Attività/Doposcuola medie/foto.jpg"></a></li>
-
-                <li><a href="contenuto.html?type=contenuto&nome=Spiedo+solidale&directory=Attività/Spiedo+solidale">Spiedo solidale<img src="Attività/Spiedo solidale/foto.jpg"></a></li>

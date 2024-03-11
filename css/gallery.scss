@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --lightGrey: #e0dede;    
+    --grey: #444444; 
+    --green: #3e6448;
+}
+
+body {    // this will affect the entire body
+    background: var(--lightGrey);
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.titolo{
+    padding: 2em 2em 1em 2em;
+    font-size: 1.1em;
+}
+
+.immagini{
+
+    ul{
+        list-style: none;
+        padding: 0 2em;
+        display: block;
+    
+        img{
+            width: 95%;
+            height: max-content;
+            padding-bottom: 2em;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px){
+
+    .titolo{
+        padding: 2em 2em 2em 2em;
+        font-size: 1.2em;
+    }
+
+    .immagini{
+
+        display: flex;
+        width: 100%;
+
+        ul{
+            column-count: 2;
+        }
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .immagini{
+
+        ul{
+            column-count: 3;
+        }
+    }
+}
+
+@media only screen and (min-width: 1450px){
+
+    .immagini{
+
+        ul{
+            column-count: 4;
+        }
+    }
+}

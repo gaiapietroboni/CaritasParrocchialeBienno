@@ -1,12 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --lightGrey: #e0dede;
+  --grey: #444444;
+  --green: #3e6448;
+  --waterGreen: #4a594a;
+}
+
 body {
-  background-color: var(--background);
+  background: var(--lightGrey);
   margin: 0;
   font-family: "Poppins";
 }
 
 .logo .container {
-  background-color: var(--background);
+  background-color: var(--lightGrey);
 }
 .logo .container img {
   display: block;
@@ -25,7 +32,7 @@ body {
 }
 
 .immagini {
-  background-color: var(--secondaryColor);
+  background-color: var(--waterGreen);
   margin-bottom: 2em;
 }
 .immagini img {

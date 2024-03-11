@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --lightGrey: #e0dede;
+  --grey: #444444;
+  --green: #3e6448;
+}
+
+body {
+  background: var(--lightGrey);
+  margin: 0;
+  font-family: "Poppins";
+}/*# sourceMappingURL=PVC.css.map */
