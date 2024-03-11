@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  background-color: var(--background);
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.logo .container {
+  background-color: var(--background);
+}
+.logo .container img {
+  display: block;
+  width: 100%;
+  position: relative;
+  padding: 5em 0 2em 0;
+}
+.logo .container .logo-long {
+  display: none;
+}
+
+.info .container p {
+  padding: 2em 2em;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.immagini {
+  background-color: var(--secondaryColor);
+  margin-bottom: 2em;
+}
+.immagini img {
+  width: 90%;
+  padding: 2em;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo .container .logo-long {
+    display: block;
+    padding: 6em 2em 2em 2em;
+    width: 90%;
+  }
+  .logo .container .logo-short {
+    display: none;
+  }
+  .info .container {
+    margin-bottom: 4em;
+  }
+  .info .container p {
+    padding: 2em 2em 2em 2em;
+    font-size: 1.3em;
+  }
+  .immagini img {
+    width: 84%;
+    padding: 2em 8%;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .logo .container .logo-long {
+    padding-top: 8em;
+    padding-right: 15%;
+    padding-left: 15%;
+    width: 70%;
+  }
+  .info .container p {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    font-size: 1.4em;
+  }
+  .immagini {
+    display: flex;
+    margin: 4em 0;
+  }
+  .immagini img {
+    width: 35%;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    margin-right: 0;
+  }
+}/*# sourceMappingURL=home.css.map */

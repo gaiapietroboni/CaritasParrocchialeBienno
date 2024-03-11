@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caritas Bienno</title>
+
+    <link rel="stylesheet" href="css/contatti.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(function(){
+            $('#navbar').load('navbar.html');
+        });
+    </script>
+
+</head>
+<body>
+
+    <div id="navbar" class="navbar"></div>      <!--navbar-->
+
+    <section>
+            <div class="contatti">
+                <h1>Contatti</h1>
+                <p>
+                    
+                    <span>Massimo:</span> 333 618 8722 <br>
+                    <span>Andrea:</span> 347 470 3245 <br>
+                    <span>Giulio:</span> 346 571 3796 <br><br>
+    
+                    <span>Massimo:</span> caritas.sitoweb@gmail.com <br>
+        
+                    
+                    <br><br>Il nostro luogo di ritrovo principale è 
+                    la Casa Parrocchiale di Bienno.
+                    <br>Ci trovate in via San Benedetto, 13:
+        
+                </p>
+            </div>
+        
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2774.8699814934034!2d10.294847676168773!3d45.93389837108552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4783cdd4f4200f79%3A0x4b38c9c8369b94a0!2sCentro%20Parrocchiale%20La%20Casa!5e0!3m2!1sit!2sit!4v1707561091002!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </section>
+
+    <section>
+        <div class = "sezionePerIlContatto">
+
+            <h1>Vuoi più info? Scrivici!</h1>
+
+            <form action="#">
+                <div class = "input-box">
+                    <div class ="input-field field">
+                        <input type = "text" placeholder="Nome" id="name" class="item"
+                        autocomplete="off">
+                    </div>
+    
+                    <div class ="input-field field">
+                        <input type = "text" placeholder="Email" id="email" class="item"
+                        autocomplete="off">
+                    </div>
+    
+                    <div class ="input-field field">
+                        <input type = "text" placeholder="Numero di cellulare" id="phone" 
+                        class="item" autocomplete="off">
+                    </div>
+    
+                    <div class ="input-field field">
+                        <input type = "text" placeholder="Oggetto" id="subject" 
+                        class="item" autocomplete="off">
+                    </div>
+    
+    
+                </div>
+    
+                <div class ="textarea-field field">
+                    <textarea name = "" cols= "30" rows="10" placeholder="Il tuo messaggio" id="message" class="item"
+                    autocomplete="off"></textarea>
+                </div>
+    
+                <button type="submit">Invia</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="email.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">  </script> <!--email sender service-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>  <!--button message-->
+
+
+
+    
+</body>
+</html>

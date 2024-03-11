@@ -1,0 +1,3 @@
+                <li><a href="contenuto.html?type=contenuto&nome=L'organo&directory=Luoghi/Chiesa+parrocchiale/L'organo">L'organo<img src="Luoghi/Chiesa parrocchiale/L'organo/foto.jpg"></a></li>
+                <li><a href="contenuto.html?type=contenuto&nome=Opere+artistiche&directory=Luoghi/Chiesa+parrocchiale/Opere+artistiche">Opere artistiche<img src="Luoghi/Chiesa parrocchiale/Opere artistiche/foto.jpg"></a></li>
+                <li><a href="contenuto.html?type=contenuto&nome=L'architettura&directory=Luoghi/Chiesa+parrocchiale/L'architettura">L'architettura<img src="Luoghi/Chiesa parrocchiale/L'architettura/foto.jpg"></a></li>

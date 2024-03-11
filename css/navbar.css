@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --background: #e0dede;
+  --grey: #444444;
+  --mainColor: #8c1212;
+  --secondaryColor: #8c121224;
+  --white: #ffffff;
+}
+
+body {
+  background: var(--background);
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: var(--mainColor);
+  width: 100%;
+  height: 3.2em;
+}
+.navbar nav.menu-btn {
+  display: block;
+}
+.navbar .mobile-menu {
+  display: block;
+  float: right;
+  margin: 1em;
+  cursor: pointer;
+  width: 1.8em;
+}
+.navbar nav {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  background: var(--mainColor);
+  width: 66%;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+.navbar nav ul {
+  margin-top: 5em;
+  margin-right: 1em;
+  padding: 0;
+}
+.navbar nav ul li {
+  list-style: none;
+}
+.navbar nav ul li a {
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+  font-size: 1.3em;
+  padding: 0.4em;
+  text-align: right;
+}
+.navbar nav ul li a:hover {
+  font-weight: bold;
+}
+.navbar nav .mobile-menu-exit {
+  display: block;
+  float: right;
+  margin: 1em;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    width: 0;
+    height: 0;
+    margin-bottom: 4em;
+  }
+  .navbar .mobile-menu {
+    display: none;
+  }
+  .navbar nav {
+    display: block;
+    width: 100%;
+    height: 4em;
+  }
+  .navbar nav div {
+    display: flex;
+    padding-left: 2em;
+  }
+  .navbar nav .mobile-menu-exit {
+    display: none;
+  }
+  .navbar nav ul {
+    display: flex;
+    margin: 0.6em 0em;
+  }
+  .navbar nav ul li {
+    padding: 0 0.8em;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .navbar nav div .navbar-secondary {
+    margin-left: 30%;
+  }
+}/*# sourceMappingURL=navbar.css.map */

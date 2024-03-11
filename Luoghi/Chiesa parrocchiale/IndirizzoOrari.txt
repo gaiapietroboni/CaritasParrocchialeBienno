@@ -1,0 +1,14 @@
+            <span>Telefono:</span> 0364 40058 <br><br>
+
+	<span>Orari: </span><br>
+        lunedì: 9-19; <br>
+        martedì: 9-19; <br>
+        mercoledì: 9-19; <br>
+        giovedì: 9-19; <br>
+        venedì: 9-19; <br>
+        sabato: 9-19; <br>
+        domenica: 9-19; <br>
+
+            
+            <br><br>La Chiesa Parrocchiale
+            si trova a Bienno(BS), via Re, 35, 25040:

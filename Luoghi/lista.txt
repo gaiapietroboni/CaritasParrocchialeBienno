@@ -1,0 +1,3 @@
+                <li><a href="contenuto.html?type=luogo&nome=Casa+parrocchiale&directory=Luoghi/Casa+parrocchiale">Casa Parrocchiale<img src="Luoghi/Casa parrocchiale/foto.jpg"></a></li>
+                <li><a href="contenuto.html?type=luogoLista&nome=Chiesa+parrocchiale&directory=Luoghi/Chiesa+parrocchiale">Chiesa Parrocchiale<img src="Luoghi/Chiesa parrocchiale/foto.jpg"></a></li>
+                <li><a href="contenuto.html?type=luogo&nome=Oratorio&directory=Luoghi/Oratorio">Oratorio<img src="Luoghi/Oratorio/foto.jpg"></a></li>

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+body {    
+    background: var(--mainColor);
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+    .info{
+        //padding: 2em;
+        font-size: 1.1em;
+
+        .description{
+            padding: 2em;
+        }
+
+        ul{
+            
+            padding: 2em 0;
+            display: block;
+            font-size: 1.3em;
+    
+            img{
+                width: 100%;
+                height: max-content;
+                padding-bottom: 2em;
+    
+            }
+
+            li{
+                
+                list-style: none;
+    
+                a{
+                    text-decoration: none;
+                    color: var(--black);
+        
+                    &:hover{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+
+    .list{
+
+        ul{
+            
+            padding: 2em 2em;
+            display: block;
+            font-size: 1.3em;
+    
+            img{
+                width: 100%;
+                height: max-content;
+                padding-bottom: 2em;
+    
+            }
+    
+            li{
+                
+                list-style: none;
+    
+                a{
+                    text-decoration: none;
+                    color: var(--black);
+        
+                    &:hover{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+
+@media only screen and (min-width: 768px){
+
+    .info{
+        padding: 2em;
+        font-size: 1.2em;
+
+        ul{
+            display: flex;
+
+    
+            img{
+                padding-right: 2em;
+                width: 11em;
+    
+            }
+        }
+    }
+
+    .list{
+        ul{
+            display: flex;
+    
+    
+            img{
+                padding-right: 2em;
+                width: 11em;
+    
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1080px){
+
+    section{
+        font-size: 1.3em;
+    }
+
+    .info{
+
+        font-size: 1.3em;
+        padding: 2em;
+
+        ul{
+            display: flex;
+
+    
+            img{
+                padding-right: 2em;
+                width: 15em;
+    
+            }
+        }
+    }
+
+    .list{
+        ul{
+            display: flex;
+    
+    
+            img{
+                padding-right: 2em;
+                width: 15em;
+    
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (min-width: 1450px){
+
+}
